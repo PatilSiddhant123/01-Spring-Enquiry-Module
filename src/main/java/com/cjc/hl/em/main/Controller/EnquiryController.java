@@ -63,6 +63,10 @@ public class EnquiryController {
 		public ResponseEntity<List<Enquiry>> getApproveList(){
 			return new ResponseEntity<List<Enquiry>>(enquiryservice.getApprovedList(),HttpStatus.OK);
 		}
+		
+		public void Start() {
+			//changes in HIS-122
+		}
 	 
 
 }
