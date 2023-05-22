@@ -28,6 +28,10 @@ public class IncomeController {
 	@Autowired
 	private IncomeDetailService incomedetailservice;
 	
+	public void end() {
+		//Changes in HIS-134
+	}
+	
 //	@RequestMapping(value = "/addIncome", method = RequestMethod.POST, consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
 //	public ResponseEntity<IncomeDetails> newEnquiry(
 //			@RequestPart(required = true, value = "incomeCertificate") MultipartFile f1, @RequestPart("doc") String doc)
