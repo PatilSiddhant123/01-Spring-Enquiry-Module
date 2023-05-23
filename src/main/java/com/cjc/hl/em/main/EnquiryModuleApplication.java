@@ -5,7 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class EnquiryModuleApplication {
+
 	private Map<String,Objet> map=HashMap();
+	private static final String Url="http://www.gmail.com";
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(EnquiryModuleApplication.class, args);
